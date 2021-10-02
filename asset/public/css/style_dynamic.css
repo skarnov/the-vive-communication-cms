@@ -1,0 +1,244 @@
+@charset "utf-8";
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+
+    background-color: #ffffff;
+}
+
+input, button, select, textarea{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif}
+
+h1, h2, h3{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/********************* Global Elements Css ends ******************/
+/*******************************************************************/
+
+/**       2- Preloaders                                                **/
+/* #preloader starts */
+#qLpercentage {
+    font-size: 60px !important;
+}
+/* #preloader ends */
+
+/**       4- Navigation Primary (Sticky Navigation)                   **/
+/* menu-bar starts */
+
+.menu-bar{
+    background-color: white;
+}
+
+/* menu-bar starts from */
+
+.menu-bar .logo{
+    margin-top: 17px;
+}
+.menu-bar .main-nav ul li a{
+    color: black;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+.menu-bar .main-nav  ul ul a:hover {
+    color: #ffffff;
+}
+/* menu-bar Dropdown Starts */
+
+.menu-bar .main-nav  ul > li > ul {
+    background-color: #E3E3E3;
+}
+
+
+.menu-bar .main-nav  ul > li > ul a,
+.menu-bar .main-nav  ul > li > ul a:link {
+    font-size: 13px;
+}
+
+.menu-bar .main-nav  ul > li > ul a:hover {
+    background-color: rgba(132,43,45 , 1);
+    color: rgba(255,255,255, 1);
+}
+/* menu-bar Dropdown Ends */
+.small_menu .menu_small_btn{
+    color: #ffffff;
+}
+/* menu-bar ends */
+
+/**       5- Header Navigations							          	  **/
+/* header_nav_holder starts */
+.header_toggle_menu .menu_small_btn{
+    color: #ffffff;
+}
+/**       	5.1- Header Navigation 1							          **/
+/* .header-menu-1 starts */
+
+.header-menu-1 .main-nav ul li a, .header-menu-2 .main-nav ul li a, .header-menu-3 .main-nav ul li a {
+    color: black;
+    font-size: 13px;
+    line-height: 59px;
+}
+.header-menu-1 .main-nav ul li a:hover, .header-menu-1 .main-nav ul li.current a{
+    border-bottom: 2px solid #ffffff;
+}
+.header-menu-1 .main-nav ul li a:hover, .header-menu-2 .main-nav ul li a:hover, .header-menu-3 .main-nav ul li a:hover {
+    color: rgba(255,255,255, 1);
+}
+/* .header-menu-1 ends */
+
+/* header-menu-1,2,3 menu-bar Dropdown Starts */
+.header-menu-1.menu-bar .main-nav li > a:hover,
+.header-menu-1.menu-bar .main-nav ul li:hover > a, .header-menu-1.menu-bar .main-nav ul li.current a ,
+.header-menu-2.menu-bar .main-nav li > a:hover,
+.header-menu-2.menu-bar .main-nav ul li:hover > a, .header-menu-2.menu-bar .main-nav ul li.current a {
+    color: black;
+}
+
+.header-menu-1.menu-bar .main-nav  ul > li > ul a,
+.header-menu-1.menu-bar .main-nav  ul > li > ul a:link,
+.header-menu-2.menu-bar .main-nav  ul > li > ul a,
+.header-menu-2.menu-bar .main-nav  ul > li > ul a:link,
+.header-menu-3.menu-bar .main-nav  ul > li > ul a,
+.header-menu-3.menu-bar .main-nav  ul > li > ul a:link  {
+    color: rgba(255,255,255, 0.5);
+    font-size: 13px;
+}
+
+.header-menu-1.menu-bar .main-nav  ul > li > ul a:hover, 
+.header-menu-2.menu-bar .main-nav  ul > li > ul a:hover {
+    color: rgba(255,255,255, 1);
+}
+/* header-menu-1,2,3 menu-bar Dropdown Ends */
+
+/* Footer Starts*/
+footer{
+    background: #222222;
+    padding: 4px 0 1px 0;
+}
+
+.footer_text .hgroup h5 {
+    color: #555555;
+}
+
+/* Footer Ends*/
+
+/**      15- Content area inner Pages    							  **/
+
+/* Content area is used in between blog top heading section */
+/* content_bar Styling Starts*/ /* Content_bar styling includes for both blog and inner pages */
+
+.content_bar h1, .content_bar h2, .content_bar h3, .content_bar h4, .content_bar h5, .content_bar h6, .content_bar h1 a, .content_bar h2 a, .content_bar h3 a, .content_bar h4 a, .content_bar h5 a, .content_bar h6 a{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+.content_bar h1{
+    color: #222222;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 44px;
+}
+.content_bar h2{
+    color: #222222;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+.content_bar h3{
+    color: #222222;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px;
+}
+.content_bar h4{
+    color: #222222;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+}
+.content_bar h5{
+    color: #222222;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+.content_bar h6{
+    color: #222222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+}
+
+.content_bar p, .content_bar ul li, .content_bar ol li {
+    color: #777777;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* content_bar Styling Ends*/
+
+/**      20.6- Quotes Styles			                 				  **/
+/*-----------------------------------------------------------------------------------*/
+/*	Quotes Styles
+/*-----------------------------------------------------------------------------------*/
+
+/* quote_styling Starts */
+
+/* blockqoute */ 
+.quote_1, .quote_2, .quote_3, .quote_4, .quote_5{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+.quote_1 p{
+    color: #000000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.quote_2 p{
+    color: #000000;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+}
+.quote_3 p{
+    color: #000000;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 28px;
+}
+.quote_4 p{
+    color: #000000;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+}
+.quote_5 p{
+    color: #000000;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 28px;
+}
+
+
+/************ 			Custom CSS			 *************/
+/************* 		dynamic code here 		**************/
+
+#header{
+    margin: 0 auto;
+}                    
